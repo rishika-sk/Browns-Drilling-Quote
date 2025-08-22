@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Site</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 </head>
@@ -25,6 +26,7 @@
             </div>
         </nav>
 <h1>Brown's Drilling and Water Treatment</h1>
+
 <div class="containter mx-auto"></div>
  <div class="row row-cols-3"></div>
     <form class="row g-3 needs-validation" novalidate>
@@ -51,6 +53,15 @@
           </div>
         </div>
       </div>
+            <div class="col-md-4">
+        <label for="validationCustomUsername" class="form-label">Phone Number</label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="validationCustomUsername" input="example@gmail.com" aria-describedby="inputGroupPrepend" required>
+          <div class="invalid-feedback">
+            Please provide your phone number.
+          </div>
+        </div>
+      </div>
       <div class="col-md-6">
         <label for="validationCustom03" class="form-label">City</label>
         <input type="text" class="form-control" id="validationCustom03" required>
@@ -62,7 +73,9 @@
         <label for="validationCustom04" class="form-label">State</label>
         <select class="form-select" id="validationCustom04" required>
           <option selected disabled value="">Choose...</option>
-          <option>...</option>
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
         </select>
         <div class="invalid-feedback">
           Please select a valid state.
